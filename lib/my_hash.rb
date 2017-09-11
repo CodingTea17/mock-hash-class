@@ -1,5 +1,5 @@
 class MyHash
-  attr_accessor(:my_hashes)
+  attr_reader(:my_hashes)
   def initialize()
     @my_hashes = []
   end
